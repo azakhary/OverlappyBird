@@ -147,10 +147,10 @@ public class GameScreenScript implements IScript {
 					}
 					pipe.setX(pipe.getX() - delta * stage.gameSpeed);
 				}
-				
-				//check for collision with bird
-				collisionCheck();
 			}
+
+			//check for collision with bird
+			collisionCheck();
 		}
 		
 		// update scorel label
