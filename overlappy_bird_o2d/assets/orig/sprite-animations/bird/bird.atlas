@@ -1,0 +1,34 @@
+
+bird.png
+size: 120,120
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+E:/Dropbox/UnderwaterTeamShare/Overlap2D/DEMO/imgs/anim/bird1
+  rotate: false
+  xy: 2, 79
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+E:/Dropbox/UnderwaterTeamShare/Overlap2D/DEMO/imgs/anim/bird2
+  rotate: false
+  xy: 2, 36
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+E:/Dropbox/UnderwaterTeamShare/Overlap2D/DEMO/imgs/anim/bird4
+  rotate: false
+  xy: 2, 36
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+E:/Dropbox/UnderwaterTeamShare/Overlap2D/DEMO/imgs/anim/bird3
+  rotate: false
+  xy: 62, 79
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1

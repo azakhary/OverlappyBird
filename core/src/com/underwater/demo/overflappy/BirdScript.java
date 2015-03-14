@@ -156,4 +156,9 @@ public class BirdScript implements IScript {
 		birdAnimation.pause();
 	}
 
+    @Override
+    public void dispose() {
+
+    }
+
 }

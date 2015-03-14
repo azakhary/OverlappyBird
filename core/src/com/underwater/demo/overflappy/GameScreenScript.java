@@ -281,4 +281,9 @@ public class GameScreenScript implements IScript {
 		})));
 	}
 
+    @Override
+    public void dispose() {
+
+    }
+
 }

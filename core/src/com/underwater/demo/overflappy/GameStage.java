@@ -4,8 +4,8 @@ import java.io.File;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Stage;
-import com.uwsoft.editor.renderer.DefaultAssetManager;
 import com.uwsoft.editor.renderer.SceneLoader;
+import com.uwsoft.editor.renderer.resources.ResourceManager;
 
 /*
  * GameStage 
@@ -16,7 +16,7 @@ public class GameStage extends Stage {
 	public float gameSpeed = 200;
 
 	// Overlap2D  provides this easy asset manager that loads things as they are provided by default when exporting from overlap
-	private DefaultAssetManager assetManager;
+	private ResourceManager resourceManager;
 	
 	public GameStage() {
 		super();
@@ -25,13 +25,10 @@ public class GameStage extends Stage {
 		Gdx.input.setInputProcessor(this);
 		
 		// Initializing asset manager
-		assetManager = new DefaultAssetManager();
-		
-		// providing the list of sprite animations which is one in this case, to avoid directory listing coding
-		assetManager.spriteAnimationNames = new String[1]; assetManager.spriteAnimationNames[0] = "bird";
+        resourceManager = new ResourceManager();
 		
 		// loading assets into memory
-		assetManager.loadData();
+        resourceManager.initAllResources();
 		
 		// Menu goes first
 		initMenu();
@@ -41,10 +38,10 @@ public class GameStage extends Stage {
 		clear();
 		
 		// Creating Scene loader which can load an Overlap2D scene
-		SceneLoader menuLoader = new SceneLoader(assetManager);
+		SceneLoader menuLoader = new SceneLoader(resourceManager);
 		
 		// loading MenuScene.dt from assets folder
-		menuLoader.loadScene(Gdx.files.internal("scenes" + File.separator + "MenuScene.dt"));
+		menuLoader.loadScene("MenuScene");
 		
 		// Initializing iScript MenuSceneScript that will be holding all menu logic, and passing this stage for later use
 		MenuScreenScript menuScript = new MenuScreenScript(this);
@@ -62,10 +59,10 @@ public class GameStage extends Stage {
 		clear();
 		
 		// Creating Scene loader which can load an Overlap2D scene
-		SceneLoader mainLoader = new SceneLoader(assetManager);
+		SceneLoader mainLoader = new SceneLoader(resourceManager);
 		
 		// loading MainScene.dt from assets folder
-		mainLoader.loadScene(Gdx.files.internal("scenes" + File.separator + "MainScene.dt"));
+		mainLoader.loadScene("MainScene");
 		
 		// Initializing iScript GameSceneScript that will be holding all game, and passing this stage for later use
 		GameScreenScript gameScript = new GameScreenScript(this, mainLoader);

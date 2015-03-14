@@ -88,5 +88,10 @@ public class MenuScreenScript implements IScript {
 		// put bird on it's original pos + offset
 		bird.setY(birdInitialPos + birdOffset); 
 	}
+
+    @Override
+    public void dispose() {
+
+    }
 	
 }

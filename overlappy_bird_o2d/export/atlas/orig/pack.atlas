@@ -1,118 +1,118 @@
 
 pack.png
-size: 512,1024
+size: 492,2032
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
 bg
   rotate: false
-  xy: 122, 2
-  size: 320, 533
-  orig: 320, 533
+  xy: 2, 1232
+  size: 480, 800
+  orig: 480, 800
   offset: 0, 0
   index: -1
 dialog
   rotate: false
-  xy: 219, 537
-  size: 262, 137
-  orig: 262, 137
+  xy: 91, 863
+  size: 393, 205
+  orig: 393, 205
   offset: 0, 0
   index: -1
 gmOver
   rotate: false
-  xy: 2, 894
-  size: 227, 67
-  orig: 227, 67
+  xy: 91, 452
+  size: 340, 100
+  orig: 340, 100
   offset: 0, 0
   index: -1
 help
   rotate: false
-  xy: 2, 551
-  size: 215, 123
-  orig: 215, 123
+  xy: 91, 676
+  size: 323, 185
+  orig: 323, 185
   offset: 0, 0
   index: -1
 land
   rotate: false
-  xy: 2, 676
-  size: 320, 107
-  orig: 320, 107
+  xy: 2, 1070
+  size: 480, 160
+  orig: 480, 160
   offset: 0, 0
   index: -1
 logo
   rotate: false
-  xy: 137, 785
-  size: 240, 80
-  orig: 240, 80
+  xy: 91, 554
+  size: 360, 120
+  orig: 360, 120
   offset: 0, 0
   index: -1
 medal1
   rotate: false
-  xy: 2, 965
-  size: 51, 51
-  orig: 51, 51
+  xy: 91, 28
+  size: 76, 76
+  orig: 76, 76
   offset: 0, 0
   index: -1
 medal2
   rotate: false
-  xy: 55, 965
-  size: 51, 51
-  orig: 51, 51
+  xy: 169, 28
+  size: 76, 76
+  orig: 76, 76
   offset: 0, 0
   index: -1
 medal3
   rotate: false
-  xy: 108, 965
-  size: 51, 51
-  orig: 51, 51
+  xy: 416, 785
+  size: 76, 76
+  orig: 76, 76
   offset: 0, 0
   index: -1
 medal5
   rotate: false
-  xy: 161, 965
-  size: 51, 51
-  orig: 51, 51
+  xy: 416, 707
+  size: 76, 76
+  orig: 76, 76
   offset: 0, 0
   index: -1
 pipe
   rotate: false
-  xy: 2, 194
-  size: 58, 355
-  orig: 58, 355
+  xy: 2, 536
+  size: 87, 532
+  orig: 87, 532
   offset: 0, 0
   index: -1
 pipeUp
   rotate: false
-  xy: 62, 194
-  size: 58, 355
-  orig: 58, 355
+  xy: 2, 2
+  size: 87, 532
+  orig: 87, 532
   offset: 0, 0
   index: -1
 rateBtn
   rotate: false
-  xy: 214, 963
-  size: 81, 53
-  orig: 81, 53
+  xy: 292, 269
+  size: 122, 79
+  orig: 122, 79
   offset: 0, 0
   index: -1
 ready
   rotate: false
-  xy: 231, 867
-  size: 223, 67
-  orig: 223, 67
+  xy: 91, 350
+  size: 335, 100
+  orig: 335, 100
   offset: 0, 0
   index: -1
 replay
   rotate: false
-  xy: 297, 936
-  size: 131, 80
-  orig: 131, 80
+  xy: 91, 106
+  size: 197, 120
+  orig: 197, 120
   offset: 0, 0
   index: -1
 standingsBtn
   rotate: false
-  xy: 2, 812
-  size: 133, 80
-  orig: 133, 80
+  xy: 91, 228
+  size: 199, 120
+  orig: 199, 120
   offset: 0, 0
   index: -1
